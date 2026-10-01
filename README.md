@@ -1,4 +1,4 @@
-# Double Pendulum Simulation — Chaotic Dynamics & RK4 Integrator
+# Double Pendulum Simulation
 
 A Python simulation modeling the nonlinear chaotic motion of a double pendulum using the Lagrangian formalism, integrated via a custom 4th-order Runge-Kutta (RK4) algorithm with temporal sub-stepping.
 
