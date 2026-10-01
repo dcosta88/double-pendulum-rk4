@@ -2,11 +2,11 @@
 
 A Python simulation modeling the nonlinear chaotic motion of a double pendulum using the Lagrangian formalism, integrated via a custom 4th-order Runge-Kutta (RK4) algorithm with temporal sub-stepping.
 
-![Simulation Demo](pendulo_duplo.gif)
+![Simulation Demo](animation.mp4)
 
 ---
 
-## 🔬 Theoretical Background
+## Theoretical Background
 
 The system consists of two coupled pendulums with point masses $m_1, m_2$ suspended by rigid, massless rods of lengths $l_1, l_2$. 
 
@@ -22,7 +22,7 @@ At each numerical step, angular accelerations $(\ddot{\theta}_1, \ddot{\theta}_2
 
 ---
 
-## ⚙️ Computational Implementation
+## Computational Implementation
 
 - **Explicit RK4 Integrator:** Solves the first-order system of four coupled differential equations. Unlike lower-order methods (e.g., explicit Euler), RK4 achieves local truncation error of $\mathcal{O}(dt^5)$ and global error of $\mathcal{O}(dt^4)$, preserving physical trajectory stability.
 - **Sub-stepping:** Runs multiple numerical integration steps per animation frame ($dt_{\text{physics}} = dt / N$) to prevent numerical divergence during high angular velocity regimes.
@@ -31,7 +31,7 @@ At each numerical step, angular accelerations $(\ddot{\theta}_1, \ddot{\theta}_2
 
 ---
 
-## 🛠️️ Requirements & Installation
+## Requirements & Installation
 
 Requires Python 3.8+ with standard scientific libraries:
 
