@@ -4,7 +4,7 @@ A Python simulation modeling the nonlinear chaotic motion of a double pendulum u
 
 
 
-https://github.com/user-attachments/assets/1fcce02d-cf14-4943-abd5-e4b17cecab02
+https://github.com/user-attachments/assets/018f7918-4c1a-4351-91c5-a00cce050cb4
 
 
 
