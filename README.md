@@ -2,7 +2,11 @@
 
 A Python simulation modeling the nonlinear chaotic motion of a double pendulum using the Lagrangian formalism, integrated via a custom 4th-order Runge-Kutta (RK4) algorithm with temporal sub-stepping.
 
-![Simulation Demo](animation.mp4)
+
+
+https://github.com/user-attachments/assets/1fcce02d-cf14-4943-abd5-e4b17cecab02
+
+
 
 ---
 
